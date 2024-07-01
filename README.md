@@ -7,3 +7,5 @@
 4.모델 학습(CNN, RNN, LSTM, Transformer, bert, tabnet, 등 )
 5.f1_score기준으로 평가하기
 ```
+## Link
+1. [데이터셋](https://drive.google.com/file/d/1lKfXs3gQnA8b4akskdtssT_-SDDYwzIY/view?usp=drive_link)
