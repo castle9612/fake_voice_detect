@@ -8,4 +8,4 @@
 5.f1_score기준으로 평가하기
 ```
 ## Link
-1. [데이터셋](https://drive.google.com/file/d/1lKfXs3gQnA8b4akskdtssT_-SDDYwzIY/view?usp=drive_link)
+1. [dataset](https://drive.google.com/file/d/1lKfXs3gQnA8b4akskdtssT_-SDDYwzIY/view?usp=drive_link)
