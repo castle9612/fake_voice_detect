@@ -2,6 +2,16 @@
 
 음성 위변조 탐지를 위한 오디오 특징 추출, MFCC/CNN 실험, TabNet 기반 분류 실험을 정리한 프로젝트입니다.
 
+## Tech Stack
+
+- Python
+- Librosa / spafe
+- TensorFlow / Keras
+- PyTorch / TabNet
+- scikit-learn
+- pandas / NumPy
+- Jupyter Notebook
+
 ## Features
 
 - Librosa 기반 MFCC 특징 추출
@@ -100,3 +110,9 @@ Generated artifacts are written to `outputs/`.
 
 - `data/`, `outputs/`, model checkpoints, NumPy arrays, and generated submissions are ignored by Git.
 - Notebooks are kept as experiment records; scripts under `src/` are the cleaned entry points.
+
+## Lessons / Improvements
+
+- 음성 모델링에서는 MFCC/mel-spectrogram 같은 feature를 안정적으로 생성하고 저장하는 과정이 모델 학습만큼 중요했습니다.
+- CNN/RCNN과 TabNet을 함께 실험하면서 raw audio representation과 tabular acoustic feature 접근을 비교할 수 있었습니다.
+- 다음 단계에서는 fixed validation split, confusion matrix 저장, threshold tuning 결과를 자동 산출하도록 개선할 수 있습니다.
