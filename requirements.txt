@@ -1,0 +1,10 @@
+numpy
+pandas
+librosa
+scikit-learn
+tensorflow
+torch
+pytorch-tabnet
+spafe
+matplotlib
+jupyter
